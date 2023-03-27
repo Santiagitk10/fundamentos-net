@@ -4,8 +4,9 @@
 //dotnet new --list //Para mostrar una lista completa de todos los templates disponibles
 //dotnet new console //En este caso se escoge la creación de un app de consola
 //dotnet run //para ejecutar el programa
-
-
+//dotnet build //para construir el programa y ver que esté todo correcto
+//dotnet restore //para restaurar todas las dependencias que tiene el proyecto
+//dotnet watch run //cuando se hace un cambio en el proyecto vuelve a compilarse el proyecto y ejecutarse
 
 using Humanizer;
 
