@@ -9,6 +9,8 @@
 //dotnet watch run //cuando se hace un cambio en el proyecto vuelve a compilarse el proyecto y ejecutarse
 //dotnet clean //elimina todo el contenido de la carpeta bin que se generó durante la última compilación para volver a compilar
 //dotnet buil --configuration release //para hacer un buil mucho más optimo para funcionar en producción
+//dotnet new globaljson //para generar el archivo global de json, que sirve para indicar con qué versión del sdk se quiere trabajar
+//dotnet --info //Para ver todas las versiones que tengo del sdk
 
 using Humanizer;
 
