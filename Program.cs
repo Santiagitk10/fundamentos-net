@@ -1,4 +1,13 @@
-﻿using Humanizer;
+//Comandos para crear una aplicación:
+
+//dotnet new //Muestra la lista de los principales templates para crear las diferentes aplicaciones en .Net
+//dotnet new --list //Para mostrar una lista completa de todos los templates disponibles
+//dotnet new console //En este caso se escoge la creación de un app de consola
+
+
+
+
+using Humanizer;
 
 Console.WriteLine("Por favor ingrese un nombre");
 var nombre = Console.ReadLine();
